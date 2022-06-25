@@ -1,3 +1,49 @@
 body {
     font-family: 'Inter', sans-serif;
+    margin: 0px;
+}
+
+section {
+    display: flex;
+    background-image: url(../images/top-banner.png);
+    background-repeat: no-repeat;
+    padding: 40px 100px;
+
+}
+
+h1 {
+    font-size: 40px;
+}
+
+span {
+    color: orange;
+    font-weight: 700;
+}
+
+a {
+    color: white;
+    background-color: orange;
+    padding: 9px 15px;
+    text-decoration: none;
+    font-weight: 800;
+    border-radius: 4px;
+}
+
+#section {
+    padding: 60px;
+    background-image: url(../images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.half-weight {
+    width: 550px;
+}
+
+.div {
+    width: 50%;
+}
+
+.image {
+    width: 50%;
 }
