@@ -1,0 +1,94 @@
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0px;
+}
+
+
+h1 {
+    font-size: 40px;
+}
+
+span {
+    color: orange;
+    font-weight: 700;
+}
+
+a {
+    color: white;
+    background-color: orange;
+    padding: 9px 15px;
+    text-decoration: none;
+    font-weight: 800;
+    border-radius: 5px;
+}
+
+h3 {
+    color: orange;
+}
+
+#section {
+    padding: 60px;
+    background-image: url(../images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+#this-div {
+    display: flex;
+    background-image: url(../images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#full-stacl-developer {
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 2%;
+    border-left: 12px solod;
+    box-shadow: 10px 10px 40px gray;
+    padding: 40px;
+    border-left: solid 6px;
+    border-image: linear-gradient(rgb(226, 37, 37), rgb(158, 14, 225));
+    border-image-slice: 1;
+}
+
+#baby-web-developer {
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 2%;
+    border-left: 12px solod;
+    box-shadow: 10px 10px 40px gray;
+    padding: 30px;
+    border-left: solid 6px;
+    border-image: linear-gradient(blue, rgb(10, 212, 235));
+    border-image-slice: 1;
+
+}
+
+footer {
+    text-align: center;
+}
+
+
+.container {
+    display: flex;
+}
+
+.half-weight {
+    width: 550px;
+}
+
+.container {
+    display: flex;
+    background-image: url(../images/top-banner.png);
+    background-repeat: no-repeat;
+    padding: 40px 100px;
+}
+
+.div {
+    width: 50%;
+}
+
+.image {
+    width: 50%;
+}
